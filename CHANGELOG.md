@@ -13,3 +13,10 @@
 - Đã kiểm tra cú pháp JavaScript bằng `node --check`.
 - Đã rà soát liên kết nội bộ và ID HTML: không phát hiện liên kết nội bộ bị thiếu hoặc ID trùng.
 - Trang web là website tĩnh; các chức năng tương tác chạy phía trình duyệt.
+
+## Bản nâng cấp "Pro"
+
+- Thêm `assets/css/pro.css` và `assets/js/pro.js`, nạp ở tất cả các trang.
+- Chế độ tối/sáng (nhớ lựa chọn), thanh tiến trình cuộn, nút lên đầu trang, hiệu ứng hiện dần khi cuộn (tôn trọng chế độ giảm chuyển động).
+- Trang chủ: đếm ngược kỳ thi, check-in tâm trạng 7 ngày (lưu cục bộ, gợi ý Góc học sinh/Tìm hỗ trợ khi mệt), câu nhắn nhủ mỗi ngày.
+- Ngày thi nằm ở `data-exam-date` trong `index.html`; cần cập nhật theo thông báo chính thức.
